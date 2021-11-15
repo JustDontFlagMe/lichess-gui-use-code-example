@@ -15,7 +15,8 @@
       "matches": [
         "https://lichess.org/*",
         "https://lichess.dev/*",
-        "https://mskchess.ru/*"
+        "https://mskchess.ru/*",
+        "https://live.chess-online.com/*
       ],
       "js": ["./code.js"],
       "css": ["style.css"],

@@ -16,7 +16,7 @@
         "https://lichess.org/*",
         "https://lichess.dev/*",
         "https://mskchess.ru/*",
-        "https://live.chess-online.com/*
+        "https://live.chess-online.com/*"
       ],
       "js": ["./code.js"],
       "css": ["style.css"],

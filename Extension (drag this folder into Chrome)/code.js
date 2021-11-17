@@ -1647,6 +1647,7 @@
 
 (function() {
     "use strict";
+      // Taken from: https://github.com/artyompal/lichess_keyboard. credits to him.
     let nonce, src, text;
     let activate = true;
   

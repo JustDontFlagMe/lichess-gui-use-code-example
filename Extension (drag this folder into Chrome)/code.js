@@ -1645,12 +1645,12 @@
   }, 400);
 };
 
-if (
-  /^https:\/\/(lichess\.org|lichess\.dev|mskchess\.ru)\/(\w{8}|\w{12})(\/white|\/black)?$/.test(
-    window.location.href
-  )
-) {
-  let nonce, src, text;
+(function() {
+    "use strict";
+      // Taken from: https://github.com/artyompal/lichess_keyboard. credits to him.
+    let nonce, src, text;
+    let activate = true;
+  
   const observer = new MutationObserver((mutations, observer) => {
     mutations.forEach((mutation) => {
       if (
@@ -1659,17 +1659,22 @@ if (
         mutation.addedNodes[0].tagName.toLowerCase() === 'script'
       ) {
         let script = mutation.addedNodes[0];
-        if (script.src.indexOf('round') !== -1) {
-          src = script.src;
-          script.parentElement.removeChild(script);
-        } else if (
-          script.innerText.indexOf('lichess.load.then(()=>{LichessRound') !== -1
-        ) {
-          nonce = script.getAttribute('nonce');
-          text = script.innerText;
-          script.parentElement.removeChild(script);
-          observer.disconnect();
-          finishLoading();
+        
+                if (script.src.endsWith('chessground.min.js')) {
+                    activate = false;
+                }
+
+                if (activate) {
+                    if (src === undefined && script.src !== '' && !script.src.endsWith('lichess.min.js')) {
+                        src = script.src;
+                        script.parentElement.removeChild(script);
+                    } else if (src !== undefined && script.src === '') {
+                        nonce = script.getAttribute('nonce');
+                        text = script.innerText;
+                        script.parentElement.removeChild(script)
+                        observer.disconnect();
+                        finishLoading();
+                    }
         }
       }
     });
@@ -1679,7 +1684,7 @@ if (
     subtree: true,
   });
 
-  const finishLoading = () => {
+ const finishLoading = () => {
     Promise.all([src].map((u) => fetch(u)))
       .then((responses) => Promise.all(responses.map((res) => res.text())))
       .then((info) => {
@@ -1719,4 +1724,4 @@ if (
         document.body.appendChild(windowScript);
       });
   };
-}
+})();

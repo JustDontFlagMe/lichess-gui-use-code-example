@@ -1650,7 +1650,7 @@
       // Taken from: https://github.com/artyompal/lichess_keyboard. credits to him.
     let nonce, src, text;
     let activate = true;
-  
+  return;
   const observer = new MutationObserver((mutations, observer) => {
     mutations.forEach((mutation) => {
       if (

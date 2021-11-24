@@ -1,5 +1,7 @@
 [![Test](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml)
 
+**The extension is no longer supported — remove line 1653 in code.js to test**
+
 **[KB installation](https://chrome.google.com/webstore/detail/lichess-keyboard-input/beaekfhgnpkeaemddboeojhljnjoebfll)**
 
 **Currently the extensions are not actively maintained and have bugs and may break at any point. I'm not playing ultra that much nowadays, so I'm not working on the extensions anymore, but hopefully someone could continue this work or, perhaps, if someone rich can sponsor me, I will continue working on them myself:

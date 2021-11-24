@@ -1,4 +1,4 @@
-[![Test](https://github.com/Sentero-esp12/Lichess-Keyboard-Input/actions/workflows/node.js.yml/badge.svg)](https://github.com/Sentero-esp12/Lichess-Keyboard-Input/actions/workflows/node.js.yml)
+[![Test](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml)
 
 **[KB installation](https://chrome.google.com/webstore/detail/lichess-keyboard-input/beaekfhgnpkeaemddboeojhljnjoebfll)**
 
@@ -11,15 +11,11 @@
 
 # Lichess-Keyboard-Input
 
-**[How to install](https://lichess.org/forum/team-welcome-keyboard/how-to-install-keyboard-input)**
-
-**[A video example](https://youtu.be/UAExpNbLlIo)**
-
 Many thanks to [Vempele](https://github.com/Vempele), the author of the [original script](https://gist.github.com/Vempele/46333e85e33b6d488c3ffb131942272d), from which I took ideas and parts of the code 
 
 [The forum discussion](https://lichess.org/forum/lichess-feedback/feature-request-using-keyboard-for-selecting-pieces?page=1)
 
-[Why KB is fair](https://github.com/Sentero-esp12/Lichess-Keyboard-Input/blob/master/Why%20KB%20is%20fair.md)
+[Why KB is fair](https://github.com/mr-yt12/lichess-gui-use-code-example/blob/master/Why%20KB%20is%20fair.md)
 
 # How to use
 

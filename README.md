@@ -1,7 +1,6 @@
 [![Test](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml/badge.svg)](https://github.com/mr-yt12/lichess-gui-use-code-example/actions/workflows/node.js.yml)
 
-**The extension is no longer supported — remove line 1653 in code.js to test**  
-[For testing only](https://github.com/mr-yt12/lichess-gui-use-code-example/archive/074e3a8c14089dc1d591bfffdaed08e5a1637777.zip)
+**The extension is no longer supported — remove line 1653 in code.js to test**: [for testing only](https://github.com/mr-yt12/lichess-gui-use-code-example/archive/074e3a8c14089dc1d591bfffdaed08e5a1637777.zip)
 
 **[KB installation](https://chrome.google.com/webstore/detail/lichess-keyboard-input/beaekfhgnpkeaemddboeojhljnjoebfll)**
 

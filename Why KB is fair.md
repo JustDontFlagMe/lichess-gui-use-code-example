@@ -164,3 +164,13 @@ ___
 
 > that is also the case with other input devices. With the mouse, when one tries to avoid checks and win or draw on time, they often chaotically move their king to the nearby squares, often trying multiple of them, since it can be hard to see which are occupied by checks. Another problem is it's difficult to move pieces to long distances, so the game often turns into trying to shuffle pieces in the same place, without having a plan to checkmate the opponent's king or win material. With KB one can more easily activate pieces and deliver checks or a checkmate, since it's easier to move pieces to long distances and it's easier to quickly switch between pieces. With multipremoves present it's also sometimes possible to quickly promote a pawn (which is very difficult with a mouse) and deliever a checkmate by using queens or a rook and a queen. Occasionally the moves will be chaotic, when the players don't see a possibility for a checkmate. However, there are many aspects to KB time scrambles. You can use pieces that are far away from your cursor to bring them closer to the opponent's king and restrict its movements, winning you more time. You can promote pawns more effectively and use it to deliver checks. You don't have to shuffle pieces in the same place, and you actually can move them more effectively across the board. There are many more aspects. Therefore KB and the mouse have their own upsides and downsides in time scrambles, and we cannot say that using KB in time scrambles makes the games more chaotic. 
 
+___
+
+
+**Argument**: 
+
+* The extension itself does actually check for legal moves, which allows it to only send the move to the server when a legal move is randomly chosen. You could argue that this already breaks the existing rules by providing assistance.
+
+**Refutation**:
+
+> That's not exactly how it works. Lichess frontend checks for legal moves and automatically discards illegal moves. So illegal moves can't be sent to the server, unless there is a bug or a network problem / problem with the client. It's originally Lichess's code that discards illegal moves, so they are not sent to the server. Kb extension just does the same work Lichess does to prevent the JavaSript engine overload (because Lichess has a lot of layers of which can bump up latency to 10 or more milliseconds per move, which means an increase in lag), and to decrease the overall input latency which is one of the main objectives of ultra. It doesn't do anything in this regard that Lichess already doesn't.

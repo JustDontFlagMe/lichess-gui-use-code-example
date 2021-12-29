@@ -1,12 +1,9 @@
-# Lichess-Keyboard-Input
-Install quickly: https://chrome.google.com/webstore/detail/lichess-keyboard-input/beaekfhgnpkeaemddboeojhljnjoebfl?hl=en
+# MSKchess-Keyboard-Input
 
-Move pieces faster using your keyboard on Lichess <br />
+Move pieces faster using your keyboard on MSKchess.ru <br />
 It is a legal way to become faster in ultrabullet
 
-You can try it here: https://ultrabullet.com/ultratraining
-
-A video example: https://youtu.be/UAExpNbLlIo
+You can try it here (click "Keyboard" and set the keys): https://dphdmn.github.io/betterchess/
 
 Many thanks to Vempele, the author of the original script, from which I took ideas and parts of the code: https://gist.github.com/Vempele/46333e85e33b6d488c3ffb131942272d
 

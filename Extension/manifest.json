@@ -12,7 +12,10 @@
         {
             "matches": [
                 "https://lichess.org/*",
-                "https://lichess.dev/*"
+                "https://lichess.dev/*",
+                "https://mskchess.ru/*",
+                "https://playstrategy.org/*",
+                "https://live.chess-online.com/*"
             ],
            "js": [
                 "./code.js",                

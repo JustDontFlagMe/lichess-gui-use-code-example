@@ -1,7 +1,7 @@
 # MSKchess-Keyboard-Input
 
 Move pieces faster using your keyboard on MSKchess.ru <br />
-It is a legal way to become faster in ultrabullet
+It is a legal way to become faster in ultrabullet on MSKchess.ru
 
 You can try it here (click "Keyboard" and set the keys): https://dphdmn.github.io/betterchess/
 

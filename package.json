@@ -4,6 +4,7 @@
   "description": "Use your keyboard to play chess",
   "author": "mr-yt12",
   "main": "code.js",
+  "funding": "patreon.com/ultrachess", 
   "scripts": {
     "start": "code.js"
   },
